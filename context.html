@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Context</title>
+
+    <style>
+        /* --- Global Styling --- */
+        body {
+            margin: 0;
+            font-family: "Poppins", Arial, sans-serif;
+            background: #111;
+            color: #f0f0f0;
+        }
+
+        /* --- Header Section --- */
+        header {
+            background: linear-gradient(135deg, #FF6584, #3A3A3A);
+            padding: 70px 20px;
+            text-align: center;
+            color: white;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            font-weight: 700;
+            letter-spacing: 2px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+            margin-top: 10px;
+        }
+
+        /* --- Page Container --- */
+        .container {
+            width: 85%;
+            max-width: 1100px;
+            margin: 50px auto;
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        /* --- Content Section Styling --- */
+        .section {
+            background: #1a1a1a;
+            padding: 30px;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: transform .3s, box-shadow .3s;
+        }
+
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+        }
+
+        .section h2 {
+            margin-top: 0;
+            color: #FF6584;
+            font-size: 1.8rem;
+        }
+
+        .section p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            opacity: 0.9;
+        }
+
+        /* --- Footer --- */
+        footer {
+            text-align: center;
+            background: #000;
+            padding: 20px;
+            margin-top: 50px;
+            color: #bbb;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        /* --- Animation --- */
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Context</h1>
+        <p>Understanding our background & purpose</p>
+    </header>
+
+    <div class="container">
+
+        <div class="section">
+            <h2>Background</h2>
+            <p>
+                This context page provides a deeper understanding of the ideas,
+                challenges, and inspirations that shape our work. It serves as
+                the foundation behind our mission and values.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Why This Matters</h2>
+            <p>
+                Every project we build comes from careful thought, strategy, and 
+                purpose. Understanding the context helps reveal why decisions are 
+                made and how they align with our vision.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Our Approach</h2>
+            <p>
+                We focus on clarity, depth, and meaningful direction. We believe 
+                context enriches every idea and ensures that our work remains
+                impactful and true to its purpose.
+            </p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Your Company Name — Context Overview</p>
+    </footer>
+
+</body>
+</html>
