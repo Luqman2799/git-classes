@@ -1,1 +1,4 @@
 secrets.txt
+data.log
+upload/*
+!upload/index.html
